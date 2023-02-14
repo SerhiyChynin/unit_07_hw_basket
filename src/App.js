@@ -5,16 +5,15 @@ import goodsArr from './goods.json';
 import React from 'react';
 
 class App extends React.Component {
-  constructor (count, cart) {
+  constructor () {
     super();
 
-    this.cart = cart;
-    this.count = count;
-    this.state.cart = {
-      cart: {}
+    this.state = {
+      cart: {},
+      count:0
     }
-    this.state.count = 0
-     
+  
+    
     console.log(this.state)
     console.log(this.state.count)
     
